@@ -57,13 +57,8 @@ class Inventory {
 
 // Test Cases
 var prod_1 = new Product(4.75, "Billy's Butter Spray", 47);
-var prod_1Num = prod_1.quantity;
-
 var prod_2 = new Product(2.29, "Abe's Garlic Powder", 22);
-var prod_2Num = prod_2.quantity;
-
 var prod_3 = new Product(5.05, "Sushi Sam's Seaweed", 10);
-var prod_3Num = prod_3.quantity;
 
 var myInventory = new Inventory(prod_1, prod_2, prod_3);
 //console.log(myInventory);
